@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+
+/*Global / Desktop View*/
+header {
+    background-color: rgba(0,0,0,0.65);
+    padding-top: 19px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-bottom: 12px;
+}
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+nav {
+    float: right;
+    margin-top: -13px;
+}
+.mobile-view {
+	display: none;
+}
+.desktop-view ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+.desktop-view {
+	margin-top: -4px;
+}
+.desktop-view ul li a {
+	padding-top: 13px;
+	padding-right: 43px;
+	padding-bottom: 13px;
+	padding-left: 43px;
+	text-decoration: none;
+	color: #E8E8E8;
+}
+.btn-red {
+	background-color: #FF6138;
+}
+.btn-green {
+	background-color: #00A388;
+}
+body {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    background-color: #7B7C91;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: large;
+}
+.BGimage {
+	height: 653px;
+	background-image: url("images/BGimage.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 0%;
+	padding-top: 19px;
+}
+main {
+    min-height: 800px;
+    background-color: hsla(237,9%,53%,0.00);
+    float: none;
+    padding-right: 25px;
+}
+footer {
+    height: 120px;
+}
+.social-icons {
+    float: left;
+}
+.copyright {
+    float: right;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+/*Tablet View*/
+@media (min-width: 401px) and (max-width: 768px){
+.mobile-view {
+	display: block;
+	float: right;
+	margin-top: 8px;
+}
+.desktop-view {
+	display: none;
+	text-align: right;
+}
+.expand {
+	display: block;
+}	
+.desktop-view ul li {
+	display: block;
+	margin-top: 25px;
+}
+}
+
+
+
+/*Mobile View*/
+@media (max-width: 400px){
+.mobile-view {
+	display: block;
+	float: right;
+}
+.desktop-view {
+	display: none;
+	text-align: right;
+}
+.expand {
+	display: block;
+}	
+header a img {
+	width: 83%;
+	height: 83%;
+}
+.mobile-view {
+	margin-top: 6px;
+}
+.desktop-view ul li {
+	display: block;
+	margin-top: 25px;
+}
+.BGimage {
+	height: 526px;
+}
+}
