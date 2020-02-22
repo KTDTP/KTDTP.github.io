@@ -72,6 +72,11 @@ footer {
     background-color: #555353;
     max-width: 1200px;
 }
+.thumbnails {
+    padding-top: 196px;
+
+}
+
 .social-icons {
     float: left;
     margin-top: 10px;
