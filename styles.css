@@ -54,18 +54,19 @@ body {
     font-size: large;
 }
 .BGimage {
-	height: 653px;
-	background-image: url("images/BGimage.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center 0%;
-	padding-top: 19px;
+    background-image: url("images/BGimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0%;
+    height: 1000px;
+    margin-bottom: 248px;
 }
 main {
     min-height: 800px;
     background-color: hsla(237,9%,53%,0.00);
     float: none;
     padding-right: 25px;
+    padding-bottom: 245px;
 }
 footer {
     height: 80px;
@@ -73,8 +74,10 @@ footer {
     max-width: 1200px;
 }
 .thumbnails {
-    padding-top: 196px;
-
+    margin-left: -58px;
+    height: auto;
+    margin-top: 340px;
+    padding-top: 0px;
 }
 
 .social-icons {
@@ -92,6 +95,15 @@ footer {
     padding-left: 20px;
     height: auto;
 }
+.intro {
+    margin-top: 314px;
+    margin-left: 488px;
+    margin-bottom: 351px;
+}
+.container main div {
+}
+
+
 
 
 
